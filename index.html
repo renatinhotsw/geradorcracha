@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <html>
+  <head lang="en">
+      <meta charset="UTF-8">
+      <title>Armazenando imagens no banco de dados Mysql</title>
+  </head>
+  <body>
+  <h2>Gerador de Crachá</h2>
+    
+  <form enctype="multipart/form-data" action="carregar.php" method="post">
+  <div><label>Código de Identificação: </label><input name="codidentificacao
+    " type="text" id="codidentificacao" readonly /><br>
+    Nome: </label><input name="nome" type="textarea" id="nome"/>   <br>
+    Função: </label><input name="funcao" type="textarea" id="funcao"/>    
+
+  </div>
+  
+  <input type="hidden" name="MAX_FILE_SIZE" value="99999999"/>
+      <div><input name="foto" type="file" id="foto"/></div>
+      <div><input type="submit" value="Gerar"/></div>
+  </form>
+
+
+  </body>
+  </html>
+
